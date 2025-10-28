@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Emoji Chat Room</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sub-container chat-feed">
+            <div class="chat-header">Emoji Chat Box</div>
+            <div class="chat-box" id="chat-box-msgs"></div>
+        </div>
+
+        <div class="sub-container chat-input">
+            <div id="user-label" class="user-label"></div>
+            <div class="emoji-grid">
+                <button type="button" class="emoji-button" data-emoji="🐙">🐙</button>
+                <button type="button" class="emoji-button" data-emoji="🎮">🎮</button>
+                <button type="button" class="emoji-button" data-emoji="🌊">🌊</button>
+                <button type="button" class="emoji-button" data-emoji="🔫">🔫</button>
+                <button type="button" class="emoji-button" data-emoji="🦑">🦑</button>
+                <button type="button" class="emoji-button" data-emoji="🎨">🎨</button>
+                <button type="button" class="emoji-button" data-emoji="🐟">🐟</button>
+                <button type="button" class="emoji-button" data-emoji="💥">💥</button>
+                <button type="button" class="emoji-button" data-emoji="🐡">🐡</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
